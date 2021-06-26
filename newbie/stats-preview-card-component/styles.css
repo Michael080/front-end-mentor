@@ -15,6 +15,7 @@ h1,
 }
 
 h1 {
+  font-family: 'Inter', sans-serif;
   color: white;
   font-size: 1.7em;
   font-weight: 300;
@@ -22,9 +23,15 @@ h1 {
 }
 
 p {
+  font-family: 'Inter', sans-serif;
   color: #9694ac;
   font-size: .85em;
+  font-weight: 400;
   margin-top: 0;
+}
+
+.stats-container p:last-child{
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .bold {
