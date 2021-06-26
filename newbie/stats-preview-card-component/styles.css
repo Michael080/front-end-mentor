@@ -48,6 +48,8 @@ p {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: #1c1938;
   max-width: 600px;
   height: 75%;
@@ -70,9 +72,38 @@ p {
   border-top-right-radius: 10px;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 825px) {
+  body {
+    margin: 15px auto;
+  }
+
   .card {
-    /* max-width: something or other */
+    flex-direction: row-reverse;
+    text-align: left;
+    max-width: 900px;
+    width: 95%;
+    margin: 25px;
+    padding-bottom: 0;
+  }
+
+  .image {
+    min-width: 50%;
+    margin-bottom: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 325px;
+    padding: 3em;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
