@@ -43,12 +43,19 @@ p {
 
 /* Layout */
 
-img {
+.image {
+  background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
+  opacity: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color:hsl(278, 66%, 62%);
+  background-blend-mode: luminosity;
   width: 100%;
+  min-height: 33.33vh;
   margin-bottom: 1em;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  
 }
 
 .container {
