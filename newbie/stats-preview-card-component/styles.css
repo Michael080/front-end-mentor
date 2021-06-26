@@ -1,13 +1,10 @@
 /* General */
 
-* {
-  margin-top: 0;
-}
-
 body {
   font-family: 'Mitr', sans-serif;  
   text-align: center;
   background-color: #0a0c1b;
+  padding: 5px;
 }
 
 /* Typography */
@@ -27,6 +24,7 @@ h1 {
 p {
   color: #9694ac;
   font-size: .85em;
+  margin-top: 0;
 }
 
 .bold {
@@ -43,6 +41,20 @@ p {
 
 /* Layout */
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #1c1938;
+  max-width: 600px;
+  height: 75%;
+  padding-bottom: .5em;
+  border-radius: 10px;
+}
+
 .image {
   background-image: url(stats-preview-card-component-main/images/image-header-desktop.jpg);
   opacity: 35%;
@@ -58,11 +70,10 @@ p {
   border-top-right-radius: 10px;
 }
 
-.container {
-  background-color: #1c1938;
-  margin-top: .5em;
-  padding-bottom: .5em;
-  border-radius: 10px;
+@media screen and (min-width) {
+  .card {
+    /* max-width: something or other */
+  }
 }
 
 .content {
