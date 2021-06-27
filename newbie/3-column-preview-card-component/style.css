@@ -48,6 +48,13 @@ p:nth-child(3) {
 
 /*   Layout   */
 
+.card {
+  max-width: 315px;
+  height: 509.67px;
+  margin: 0 1em 0 1em;
+  padding: 1em;
+}
+
 .card-sedan {
   background-color: hsl(31, 77%, 52%);
 }
@@ -61,5 +68,13 @@ p:nth-child(3) {
 }
 
 .btn {
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  width: 125px;
+  height: 45px;
+  border-radius: 45px;
+}
+
+.btn p {
+  padding-top: 11.5px;
 }
