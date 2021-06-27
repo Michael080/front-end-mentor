@@ -10,6 +10,11 @@ body,
 
 h2, p {
   margin-top: 0;
+  
+}
+
+p {
+  margin-bottom: 3em;
 }
 
 /*   Typography   */
@@ -21,6 +26,7 @@ h2
 
 h2 {
   font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -39,7 +45,6 @@ p:nth-child(3) {
 }
 .btn-accent-type-luxury {
   color: hsl(179, 100%, 13%);
-
 }
 
 .btn {
@@ -47,12 +52,17 @@ p:nth-child(3) {
 }
 
 /*   Layout   */
+/* icon 64x40 */
+img {
+  width: 64px;
+  height: 40px;
+  margin-bottom: 3em;
+}
 
 .card {
   max-width: 315px;
-  height: 509.67px;
   margin: 0 1em 0 1em;
-  padding: 1em;
+  padding: 3em;
 }
 
 .card-sedan {
