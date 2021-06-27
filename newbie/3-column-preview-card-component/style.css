@@ -1,0 +1,25 @@
+/*   General   */
+body {
+  font-size: 15px;
+}
+
+h1, p {
+  margin-top: 0;
+}
+
+/*   Typography   */
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+/*   Layout   */
