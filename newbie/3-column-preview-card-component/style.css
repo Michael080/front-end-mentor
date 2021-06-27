@@ -37,12 +37,12 @@ p:nth-child(3) {
 
 .btn-accent-type-sedan {
   color: hsl(31, 77%, 52%);
-
 }
+
 .btn-accent-type-suv {
   color: hsl(184, 100%, 22%);
-
 }
+
 .btn-accent-type-luxury {
   color: hsl(179, 100%, 13%);
 }
@@ -52,17 +52,31 @@ p:nth-child(3) {
 }
 
 /*   Layout   */
-/* icon 64x40 */
+
 img {
-  width: 64px;
-  height: 40px;
-  margin-bottom: 3em;
+  width: 3.2em;
+  height: 2em;
+  margin-bottom: 1.5em;
 }
 
 .card {
-  max-width: 315px;
+  max-width: 250px;
   margin: 0 1em 0 1em;
+  margin: 0; 
   padding: 3em;
+}
+
+@media (min-width: 300px) {
+  .card {
+    margin: 0;  
+    margin: 0 1em 0 1em;
+  }
+}
+
+@media (min-width: 400px) {
+  .card {
+    margin: 0 auto;  
+  }
 }
 
 .card-sedan {
