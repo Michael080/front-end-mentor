@@ -3,19 +3,43 @@ body {
   font-size: 15px;
 }
 
-h1, p {
+body,
+.btn {
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2, p {
   margin-top: 0;
 }
 
 /*   Typography   */
+
+h2
+ {
+  color: hsl(0, 0%, 95%);
+}
 
 h2 {
   font-family: 'Big Shoulders Display', cursive;
   text-transform: uppercase;
 }
 
-p {
+p:nth-child(3) {
   font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-accent-type-sedan {
+  color: hsl(31, 77%, 52%);
+
+}
+.btn-accent-type-suv {
+  color: hsl(184, 100%, 22%);
+
+}
+.btn-accent-type-luxury {
+  color: hsl(179, 100%, 13%);
+
 }
 
 .btn {
@@ -23,3 +47,19 @@ p {
 }
 
 /*   Layout   */
+
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.btn {
+  width: 100px;
+}
