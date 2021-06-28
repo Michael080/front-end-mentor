@@ -1,11 +1,19 @@
 /*   General   */
+
+:root {
+  --light-gray: hsl(0, 0%, 95%); /* buttons, background, & type*/
+  --accent-sedan: hsl(31, 77%, 52%);
+  --accent-suv: hsl(184, 100%, 22%);
+  --accent-luxury:  hsl(179, 100%, 13%);
+}
+
 body {
   font-size: 15px;
 }
 
 body,
 .btn {
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--light-gray);
 }
 
 h2, p {
@@ -66,9 +74,41 @@ img {
   padding: 3em;
 }
 
+.card-sedan {
+  background-color: var(--accent-sedan);
+}
+
+.card-suv {
+  background-color: var(--accent-suv);
+}
+
+.card-luxury {
+  background-color: var(--accent-luxury);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 125px;
+  height: 45px;
+  border-radius: 45px;
+}
+
+.btn p {
+  padding-top: 11.5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: var(--light-gray);
+  background-color: transparent;
+  border: 1px solid var(--light-gray);
+  margin-bottom: 0;
+}
+
 @media (min-width: 300px) {
   .card {
-    margin: 0;  
     margin: 0 1em 0 1em;
   }
 }
@@ -79,26 +119,31 @@ img {
   }
 }
 
-.card-sedan {
-  background-color: hsl(31, 77%, 52%);
-}
+@media (min-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
 
-.card-suv {
-  background-color: hsl(184, 100%, 22%);
-}
+  .btn {
+    color: var(--light-gray);
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 95%);
+  }
 
-.card-luxury {
-  background-color: hsl(179, 100%, 13%);
-}
+  .btn:hover {
+    background-color: var(--light-gray);
+  }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  width: 125px;
-  height: 45px;
-  border-radius: 45px;
-}
+  #btn-sedan:hover {
+    color: var(--accent-sedan);
+  }
 
-.btn p {
-  padding-top: 11.5px;
+  #btn-suv:hover {
+    color: var(--accent-suv);
+  }
+
+  #btn-luxury:hover {
+    color: var(--accent-luxury);
+  }
 }
