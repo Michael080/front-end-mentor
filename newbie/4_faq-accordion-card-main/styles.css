@@ -1,9 +1,11 @@
 /* General */
 
 body {
+  font-family: 'Kumbh Sans', sans-serif;
   padding: 1em;
   background-color: var(--soft-violet);
 }
+
 
 /* colors */
 :root {
@@ -19,6 +21,19 @@ body {
 
 /* Typography */
 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.question {
+  font-weight: 700;
+}
 
 /* Layout */
 
@@ -26,7 +41,7 @@ body {
   box-sizing: border-box;
   background-color: white;
   width: 100%;
-  padding: 15px;
+  padding: 25px;
   border-radius: 25px;
 }
 
@@ -39,8 +54,14 @@ body {
   height: 225px;
 }
 
-.question-container {
+.container-q-a {
   border-bottom: 1px solid var(--very-light-blue);
+  margin-bottom: 1.5em;
+}
+
+.container-question {
+  display: flex;
+  justify-content: space-between;
 }
 
 .question,
@@ -55,6 +76,10 @@ body {
   background-position: bottom;
   width: 1em;
   height: 1em;
+}
+
+.answer {
+  margin-bottom: 1.5em;
 }
 
 /* Media Queries */
