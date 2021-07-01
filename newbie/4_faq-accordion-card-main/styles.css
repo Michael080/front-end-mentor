@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
   padding: 1em;
   background-color: var(--soft-violet);
 }
@@ -22,8 +23,10 @@ body {
 /* Typography */
 
 h1 {
+  font-size: 3em;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 p {
@@ -32,6 +35,10 @@ p {
 }
 
 .question {
+  margin-bottom: 1.5em;
+}
+
+.active {
   font-weight: 700;
 }
 
@@ -41,7 +48,9 @@ p {
   box-sizing: border-box;
   background-color: white;
   width: 100%;
+  margin-top: 8em;
   padding: 25px;
+  padding-bottom: 30px;
   border-radius: 25px;
 }
 
@@ -64,6 +73,10 @@ p {
   justify-content: space-between;
 }
 
+.container-question:hover {
+  cursor: pointer;
+}
+
 .question,
 .arrow {
   display: inline-block;
@@ -80,6 +93,10 @@ p {
 
 .answer {
   margin-bottom: 1.5em;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Media Queries */
