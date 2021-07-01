@@ -1,0 +1,60 @@
+/* General */
+
+body {
+  padding: 1em;
+  background-color: var(--soft-violet);
+}
+
+/* colors */
+:root {
+  /* background-gradient */
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  /* type */
+  --very-dark-blue: hsl(237, 12%, 33%);
+  --dark-blue: hsl(240, 6%, 50%);
+  /* dividers */
+  --very-light-blue: hsl(240, 5%, 91%);
+}
+
+/* Typography */
+
+
+/* Layout */
+
+.card-container {
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.img {
+  background-image: url(./images/illustration-woman-online-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 225px;
+  height: 225px;
+}
+
+.question-container {
+  border-bottom: 1px solid var(--very-light-blue);
+}
+
+.question,
+.arrow {
+  display: inline-block;
+}
+
+.arrow {
+  background-image: url(./images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 1em;
+  height: 1em;
+}
+
+/* Media Queries */
