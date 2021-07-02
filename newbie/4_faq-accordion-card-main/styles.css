@@ -227,7 +227,6 @@ p {
   }
 }
 
-/* ! KEEP --- Use for flex */
 @media (min-width: 900px) {
   body {
     padding: 6em;
@@ -242,22 +241,12 @@ p {
     flex-direction: column;
     align-items: flex-end;
     height: 500px;
-    /* width: 686px; */
-    /* margin: 4em; */
     padding-right: 4em;
   }
 
   .container-faq {
     width: 350px;
   }
-
-  /* .img { */
-    /* diff 35 */
-    /* top: -200px;
-    left: 135px;
-    width: 325px;
-    height: 325px; */
-  /* } */
 
   .img {
     top: 125px;
@@ -267,14 +256,9 @@ p {
   }
 
   .img-shadow {
-    left: 188px;
+    top: -10px;
+    left: -465px;
+    width: 290px;
+    height: 290px;
   }
-
-  /* .img-shadow { */
-  /* diff 30 */
-  /* top: -420px;
-  left: 149px;
-  width: 285px;
-  height: 285px; */
-  /* } */
 }
