@@ -48,9 +48,9 @@ p {
 .card-container {
   box-sizing: border-box;
   background-color: white;
-  width: 100%;
-  margin-top: 12em;
-  margin-bottom: 2em;
+  /* width: 100%; */
+  width: 311px;
+  margin: 12em auto 2em auto;
   padding: 25px;
   padding-bottom: 30px;
   border-radius: 25px;
@@ -68,7 +68,7 @@ p {
   height: 275px;
 }
 
-.box {
+.img-shadow {
   position: relative;
   top: -350px;
   left: 15px;
@@ -117,3 +117,37 @@ p {
 }
 
 /* Media Queries */
+
+@media (min-width: 450px) {
+  .card-container {
+    width: 386px;
+  }
+
+  /* after 75px 'expansion' */
+  .img {
+    /* diff 40 */
+    left: 20px;
+  }
+
+  .img-shadow {
+    /* diff 35 */
+    left: 55px;
+  }
+}
+
+@media (min-width: 525px) {
+  .card-container {
+    width: 461px;
+  }
+
+  /* after 75px 'expansion' */
+  .img {
+    /* diff 40 */
+    left: 60px;
+  }
+
+  .img-shadow {
+    /* diff 35 */
+    left: 95px;
+  }
+}
