@@ -195,6 +195,8 @@ p {
   }
 }
 
+
+
 @media (min-width: 750px) {
   .card-container {
     width: 686px;
@@ -202,7 +204,6 @@ p {
 
   .img {
     /* diff -20 */
-    /* left: 215px; */
     left: 150px;
   }
 
@@ -210,4 +211,70 @@ p {
     /* diff 30 */
     left: 188px;
   }
+}
+
+@media (min-width: 825px) {
+  .card-container {
+    width: 100%;
+  }
+
+  .img {
+    left: 175px;
+  }
+
+  .img-shadow {
+    left: 213px;
+  }
+}
+
+/* ! KEEP --- Use for flex */
+@media (min-width: 900px) {
+  body {
+    padding: 6em;
+  }
+
+  h1 {
+    margin-top: -400px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 500px;
+    /* width: 686px; */
+    /* margin: 4em; */
+    padding-right: 4em;
+  }
+
+  .container-faq {
+    width: 350px;
+  }
+
+  /* .img { */
+    /* diff 35 */
+    /* top: -200px;
+    left: 135px;
+    width: 325px;
+    height: 325px; */
+  /* } */
+
+  .img {
+    top: 125px;
+    left: -455px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .img-shadow {
+    left: 188px;
+  }
+
+  /* .img-shadow { */
+  /* diff 30 */
+  /* top: -420px;
+  left: 149px;
+  width: 285px;
+  height: 285px; */
+  /* } */
 }
