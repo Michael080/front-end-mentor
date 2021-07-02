@@ -151,3 +151,54 @@ p {
     left: 95px;
   }
 }
+
+@media (min-width: 600px) {
+  .card-container {
+    width: 536px;
+  }
+
+  /* after 75px 'expansion' */
+  .img {
+    /* diff 40 */
+    left: 100px;
+  }
+
+  .img-shadow {
+    /* diff 35 */
+    left: 130px;
+  }
+}
+
+@media (min-width: 675px) {
+  .card-container {
+    width: 611px;
+  }
+
+  /* after 75px 'expansion' */
+  .img {
+    /* diff 35 */
+    left: 135px;
+  }
+
+  .img-shadow {
+    /* diff 30 */
+    left: 160px;
+  }
+}
+
+@media (min-width: 750px) {
+  .card-container {
+    width: 100%;
+  }
+
+  /* after 75px 'expansion' */
+  .img {
+    /* diff 35 */
+    left: 170px;
+  }
+
+  .img-shadow {
+    /* diff 30 */
+    left: 190px;
+  }
+}
