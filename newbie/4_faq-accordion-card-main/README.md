@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Michael080/front-end-mentor/tree/main/newbie/4_faq-accordion-card-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://michael080.github.io/faq-accordion-card/)
 
 ## My process
 
