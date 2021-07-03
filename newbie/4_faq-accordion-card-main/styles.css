@@ -45,10 +45,9 @@ p {
 
 /* Layout */
 
-.card-container {
+.container-card {
   box-sizing: border-box;
   background-color: white;
-  /* width: 100%; */
   width: 311px;
   margin: 12em auto 2em auto;
   padding: 25px;
@@ -78,6 +77,10 @@ p {
   background-position: center;
   width: 243px;
   height: 243px;
+}
+
+.accordion {
+  height: 311px;
 }
 
 .container-q-a {
@@ -119,7 +122,7 @@ p {
 /* Media Queries */
 
 @media (min-width: 450px) {
-  .card-container {
+  .container-card {
     width: 386px;
   }
 
@@ -133,7 +136,7 @@ p {
 }
 
 @media (min-width: 525px) {
-  .card-container {
+  .container-card {
     width: 461px;
   }
 
@@ -147,7 +150,7 @@ p {
 }
 
 @media (min-width: 600px) {
-  .card-container {
+  .container-card {
     width: 536px;
   }
 
@@ -165,7 +168,7 @@ p {
    margin-top: -450px; 
   }
 
-  .card-container {
+  .container-card {
     width: 611px;
   }
 
@@ -184,10 +187,8 @@ p {
   }
 }
 
-
-
 @media (min-width: 750px) {
-  .card-container {
+  .container-card {
     width: 686px;
   }
 
@@ -201,7 +202,7 @@ p {
 }
 
 @media (min-width: 825px) {
-  .card-container {
+  .container-card {
     width: 100%;
   }
 
@@ -223,7 +224,7 @@ p {
     margin-top: -400px;
   }
 
-  .card-container {
+  .container-card {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -282,7 +283,7 @@ p {
     padding: 10em;
   }
 
-  .card-container {
+  .container-card {
     width: 900px;
     padding-right: 9em;
   }
