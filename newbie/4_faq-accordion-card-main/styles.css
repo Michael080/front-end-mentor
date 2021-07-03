@@ -174,14 +174,14 @@ p {
 
   .img {
     top: -200px;
-    left: 135px;
+    left: 105px;
     width: 325px;
     height: 325px;
   }
 
   .img-shadow {
     top: -420px;
-    left: 149px;
+    left: 144px;
     width: 285px;
     height: 285px;
   }
@@ -193,11 +193,11 @@ p {
   }
 
   .img {
-    left: 150px;
+    left: 142px;
   }
 
   .img-shadow {
-    left: 188px;
+    left: 182px;
   }
 }
 
@@ -207,11 +207,11 @@ p {
   }
 
   .img {
-    left: 175px;
+    left: 180px;
   }
 
   .img-shadow {
-    left: 213px;
+    left: 218px;
   }
 }
 
