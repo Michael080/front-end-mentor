@@ -30,7 +30,13 @@ body {
 h1,
 h2,
 h3 {
+  margin-top: 0;
   color: var(--dark-blue);
+}
+
+p,
+.icon {
+  margin-top: 0;
 }
 
 h1 {
@@ -46,12 +52,14 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: .5em;
 }
 
 p {
   font-size: 12px;
   font-weight: 400;
   color: var(--gray-blue);
+  margin-bottom: 3em;
 }
 
 .heading {
@@ -65,8 +73,17 @@ p {
 
 /* Layout */
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card {
+  box-sizing: border-box;
   /* background-color:hsl(180, 64%, 76%); */
+  padding: 2em;
+  margin-bottom: 2em;
 }
 
 .attribution { 
