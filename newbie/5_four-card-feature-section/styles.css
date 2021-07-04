@@ -81,6 +81,8 @@ p {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   /* background-color:hsl(180, 64%, 76%); */
   padding: 2em;
@@ -121,6 +123,7 @@ p {
   background-size: contain;
   width: 4em;
   height: 4em;
+  align-self: flex-end;
 }
 
 .icon-supervisor {
