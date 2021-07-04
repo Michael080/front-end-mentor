@@ -1,4 +1,5 @@
 /* General */
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -11,9 +12,48 @@ body {
 /* Layout */
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 11px; 
+  text-align: center; 
 }
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+/* images */
+
+.icon-supervisor {
+  box-sizing: border-box;
+  background-image: url(./images/icon-supervisor.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4em;
+  height: 4em;
+}
+
+.icon-teambuilder {
+  box-sizing: border-box;
+  background-image: url(./images/icon-team-builder.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4em;
+  height: 4em;
+}
+
+.icon-karma {
+  box-sizing: border-box;
+  background-image: url(./images/icon-karma.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4em;
+  height: 4em;
+}
+
+.icon-calculator {
+  box-sizing: border-box;
+  background-image: url(./images/icon-calculator.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4em;
+  height: 4em;
 }
