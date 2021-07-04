@@ -83,39 +83,26 @@ p {
 
 /* images */
 
-.icon-supervisor {
+.icon {
   box-sizing: border-box;
-  background-image: url(./images/icon-supervisor.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 4em;
   height: 4em;
+}
 
+.icon-supervisor {
+  background-image: url(./images/icon-supervisor.svg);
 }
 
 .icon-teambuilder {
-  box-sizing: border-box;
   background-image: url(./images/icon-team-builder.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 4em;
-  height: 4em;
 }
 
 .icon-karma {
-  box-sizing: border-box;
   background-image: url(./images/icon-karma.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 4em;
-  height: 4em;
 }
 
 .icon-calculator {
-  box-sizing: border-box;
   background-image: url(./images/icon-calculator.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 4em;
-  height: 4em;
 }
