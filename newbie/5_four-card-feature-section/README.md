@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo - Michael080/front-end-mentor](https://github.com/Michael080/front-end-mentor/tree/main/newbie/5_four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site via Github](https://michael080.github.io/four-card-feature-section/)
 
 ## My process
 
