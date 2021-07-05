@@ -7,6 +7,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  margin: 0;
   padding: 1em;
 }
 
@@ -81,6 +82,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .card {
@@ -88,6 +91,7 @@ p {
   flex-direction: column;
   box-sizing: border-box;
   box-shadow: .75em .75em 20px var(--gray-blue);
+  width: 329px;
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 5px;
@@ -143,4 +147,23 @@ p {
 
 .icon-calculator {
   background-image: url(./images/icon-calculator.svg);
+}
+
+/* Media Queries */
+
+@media (min-width: 1100px) {
+  body {
+    padding: 2em;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .row-2 {
+    flex-direction: column;
+  }
 }
