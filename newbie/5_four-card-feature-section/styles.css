@@ -122,6 +122,11 @@ p {
   color: hsl(228, 45%, 44%); 
 }
 
+.card:hover {
+  cursor: pointer;
+  color: black;
+}
+
 /* images */
 
 .icon {
@@ -165,5 +170,15 @@ p {
 
   .row-2 {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1062px;
+  }
+
+  .card-teambuilder {
+    margin-bottom: 2.5em;
   }
 }
