@@ -18,6 +18,20 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* images */
+
+.star {
+  display: inline-block;
+  background-image: url(./images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 1em;
 }
