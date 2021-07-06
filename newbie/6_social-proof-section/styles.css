@@ -1,18 +1,44 @@
 /* General */
 
-
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: var(--dark-magenta);
+}
 
 /* colors */
+:root {
+  /* primary */
+  --dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
 
-
+  /* neutral */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
 
 /* Typography */
 
+.rating,
+.name {
+  font-weight: 700;
+}
 
+.verified {
+  color: var(--soft-pink);
+}
 
 /* Layout */
 
+.rating {
+  background-color: var(--light-grayish-magenta)
+}
 
+.container-reviews {
+  color: var(--white);
+  background-color: var(--dark-magenta);
+}
 
 .attribution {
   font-size: 11px;
@@ -24,7 +50,6 @@
 }
 
 /* images */
-
 .star {
   display: inline-block;
   background-image: url(./images/icon-star.svg);
