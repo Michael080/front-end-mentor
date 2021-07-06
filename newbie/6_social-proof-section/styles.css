@@ -4,6 +4,12 @@ body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
   color: var(--dark-magenta);
+  padding: 1em;
+}
+
+h1,
+p {
+  margin-top: 0;
 }
 
 /* colors */
@@ -25,19 +31,44 @@ body {
   font-weight: 700;
 }
 
+.description {
+  margin-bottom: 3em;
+}
+
 .verified {
   color: var(--soft-pink);
 }
 
 /* Layout */
 
+/* .container {
+  display: flex;
+  flex-direction: column;
+} */
+
+.rating,
+.card {
+  border-radius: .5em;
+}
+
 .rating {
-  background-color: var(--light-grayish-magenta)
+  background-color: var(--light-grayish-magenta);
+  margin-bottom: 1.5em;
+  padding: 1em;
+}
+
+.rated {
+  margin-bottom: 0;
 }
 
 .container-reviews {
   color: var(--white);
+}
+
+.card {
   background-color: var(--dark-magenta);
+  padding: 2em;
+  margin-bottom: 1.5em;
 }
 
 .attribution {
