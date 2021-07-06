@@ -55,6 +55,7 @@ p {
   background-color: var(--light-grayish-magenta);
   margin-bottom: 1.5em;
   padding: 1em;
+  text-align: center;
 }
 
 .rated {
@@ -81,6 +82,10 @@ p {
 }
 
 /* images */
+.stars {
+  margin-bottom: 1em;
+}
+
 .star {
   display: inline-block;
   background-image: url(./images/icon-star.svg);
@@ -90,4 +95,8 @@ p {
   width: 25px;
   height: 25px;
   margin-right: 1em;
+}
+
+.star:nth-child(5) {
+  margin-right: 0;
 }
