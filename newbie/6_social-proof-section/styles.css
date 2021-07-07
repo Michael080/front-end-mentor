@@ -108,9 +108,9 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  width: 25px;
-  height: 25px;
-  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+  margin-right: .5em;
 }
 
 .star:nth-child(5) {
