@@ -7,6 +7,11 @@ body {
   padding: 1em;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 h1,
 p {
   margin-top: 0;
@@ -26,25 +31,36 @@ p {
 
 /* Typography */
 
+.description {
+  margin-bottom: 3em;
+}
+
 .rating,
 .name {
   font-weight: 700;
 }
 
-.description {
-  margin-bottom: 3em;
-}
-
 .verified {
   color: var(--soft-pink);
+  margin-bottom: 0;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  margin-bottom: .25em;
 }
 
 /* Layout */
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-} */
+.container-bio {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2em;
+}
 
 .rating,
 .card {
@@ -99,4 +115,25 @@ p {
 
 .star:nth-child(5) {
   margin-right: 0;
+}
+
+.profile-pic {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  margin-right: 1.5em;
+  border-radius: 100%;
+}
+
+.profile-pic-colton-smith {
+  background-image: url(./images/image-colton.jpg);
+}
+
+.profile-pic-irene-roberts {
+  background-image: url(./images/image-irene.jpg);
+}
+
+.profile-pic-anne-wallace {
+  background-image: url(./images/image-anne.jpg);
 }
