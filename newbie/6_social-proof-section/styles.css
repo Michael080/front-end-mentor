@@ -3,6 +3,7 @@
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
+  text-align: center;
   color: var(--dark-magenta);
   padding: 1em;
 }
@@ -31,6 +32,11 @@ p {
 
 /* Typography */
 
+.description,
+.review {
+  line-height: 1.75;
+}
+
 .description {
   margin-bottom: 3em;
 }
@@ -38,6 +44,10 @@ p {
 .rating,
 .name {
   font-weight: 700;
+}
+
+.card {
+  text-align: left;
 }
 
 .verified {
@@ -71,7 +81,6 @@ p {
   background-color: var(--light-grayish-magenta);
   margin-bottom: 1.5em;
   padding: 1em;
-  text-align: center;
 }
 
 .rated {
