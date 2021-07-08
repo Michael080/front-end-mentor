@@ -217,10 +217,18 @@ p {
 }
 
 .star {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 @media (min-width: 1200px) {
+  .container-main {
+    width: 871px;
+  }
+
+  .heading {
+    text-align: left;
+  }
+
   .container-sub-1 {
     flex-direction: row;
   }
@@ -237,9 +245,11 @@ p {
     width: 525px;
   }
 
-  .stars {
-    margin-top: 8px;
-    margin-bottom: 0;
-    margin: 14px 1.75em 0 1em;
+  .stars {    
+    margin: 0px 1.75em 0 1em;
+  }
+
+  .card {
+    margin-bottom: 2em;
   }
 }
