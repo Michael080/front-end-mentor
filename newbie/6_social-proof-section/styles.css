@@ -227,15 +227,16 @@ p {
 
   .heading {
     text-align: left;
+    padding-top: 0;
   }
 
   .container-sub-1 {
     flex-direction: row;
+    /* margin-bottom: 1em; */
   }
 
   .container-ratings {
     flex-direction: column;
-    
   }
 
   .rating {
