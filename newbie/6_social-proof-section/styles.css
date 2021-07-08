@@ -250,6 +250,7 @@ p {
 
   .container-main {
     width: 85%;
+    max-width: 1322px;
   }
 
   .heading {
