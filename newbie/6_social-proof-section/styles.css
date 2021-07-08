@@ -77,7 +77,6 @@ p {
 }
 
 .container-main {
-  max-width: 326.5px;
   margin: 0 auto;
 }
 
@@ -88,7 +87,8 @@ p {
   margin: 0 auto;
 }
 
-.rating {
+.rating,
+.card {
   width: 326.5px;
 }
 
@@ -101,6 +101,11 @@ p {
 .rating,
 .card {
   border-radius: .5em;
+}
+
+
+.container-sub-1 {
+  flex-direction: row;
 }
 
 .rating {
