@@ -184,13 +184,6 @@ p {
     width: 861.5px;
   }
 
-  .heading,
-  .rating,
-  .card {
-  /* width: 326.5px; */
-
-  }
-
   .heading {
     width: 100%;
     padding: 1.5em;
@@ -216,10 +209,6 @@ p {
   }
 }
 
-.star {
-  /* margin-bottom: 0; */
-}
-
 @media (min-width: 1200px) {
   .container-main {
     width: 871px;
@@ -232,7 +221,6 @@ p {
 
   .container-sub-1 {
     flex-direction: row;
-    /* margin-bottom: 1em; */
   }
 
   .container-ratings {
