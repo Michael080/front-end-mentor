@@ -1,16 +1,15 @@
 /* General */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
   text-align: center;
   color: var(--dark-magenta);
-  padding: 1em;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
+  padding: .75em;
 }
 
 h1,
@@ -47,6 +46,8 @@ p {
 }
 
 .card {
+  font-size: 14px;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -64,7 +65,32 @@ p {
   margin-bottom: .25em;
 }
 
+.review {
+  /* font-size: 14px; */
+}
+
 /* Layout */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-main {
+  max-width: 326.5px;
+  margin: 0 auto;
+}
+
+/* .container-ratings, */
+.rating,
+.container-reviews,
+.card {
+  margin: 0 auto;
+}
+
+.rating {
+  width: 326.5px;
+}
 
 .container-bio {
   flex-direction: row;
@@ -79,6 +105,9 @@ p {
 
 .rating {
   background-color: var(--light-grayish-magenta);
+  /* ! save for media-query */
+  /* max-width: 525px; */
+  /* max-width: 405px; */
   margin-bottom: 1.5em;
   padding: 1em;
 }
@@ -93,7 +122,8 @@ p {
 
 .card {
   background-color: var(--dark-magenta);
-  padding: 2em;
+  max-width: 405px;
+  padding: 1.75em;
   margin-bottom: 1.5em;
 }
 
