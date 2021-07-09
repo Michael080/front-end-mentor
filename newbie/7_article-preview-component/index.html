@@ -21,24 +21,31 @@
         <p class="description">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
       </div>
       <div class="card-footer">
-        <div class="footer-initial">
-          <div class="profile-pic"></div>
+        <div class="footer footer-initial">
           <div class="article-info">
-            <div class="name">Michelle Appleton</div>
-            <div class="post-date">28 Jun 2020</div>
+            <div class="img profile-pic"></div>
+            <div class="name-date">
+              <div class="name">Michelle Appleton</div>
+              <div class="post-date">28 Jun 2020</div>
+            </div>
+          </div><!-- ./.article-info -->
+          <div class="btn-container">
+            <div class="img btn-share btn-share-light"></div>
           </div>
-          <div class="img btn-share"></div>
-        </div>
-        <div class="footer-active hidden">
+        </div><!-- ./.footer-initial -->
+        <div class="footer footer-active hidden">
           <p>Share</p>
           <div class="img icon icon-facebook"></div>
           <div class="img icon icon-twitter"></div>
           <div class="img icon icon-pinterest"></div>
-          <div class="img btn-share"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+          <!-- ! .hidden must be applied to hide share-button -->
+          <div class="btn-container">
+            <div class="img btn-share hidden"></div>
+          </div>
+        </div><!-- ./.footer -->
+      </div><!-- ./.card-footer -->
+    </div><!-- ./.content-main -->
+  </div><!-- ./.container -->
 
   <!-- TODO --- Figure out how to fix footer to bottom of window -->
   <!-- !Fill out attributions -->
