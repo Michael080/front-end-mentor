@@ -1,10 +1,18 @@
 /* General */
 
-
+body {
+  background-color: var(--light-grayish-blue);
+  color: var(--dark-grayish-blue)
+}
 
 /* colors */
 
-
+:root {
+  --dark-grayish-blue: hsl(217, 19%, 35%);
+--desaturated-dark-blue: hsl(214, 17%, 51%);
+--grayish-blue: hsl(212, 23%, 69%);
+--light-grayish-blue: hsl(210, 46%, 95%);
+}
 
 /* Typography */
 
@@ -13,8 +21,13 @@
 /* Layout */
 
 .container {
+  background-color: white;
   height: 600px;
   width: 350px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  border-right: none;
 }
 
 .hidden {
@@ -31,6 +44,11 @@
 }
 
 /* images */
+.background-bleed {
+  background-color: var(--light-grayish-blue);
+  width: 100%;
+  height: 200px;
+}
 
 .img {
   background-repeat: no-repeat;
@@ -38,10 +56,11 @@
 }
 
 .img-header {
+  background-color: var(--light-grayish-blue);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-image: url(./images/drawers.jpg);
   background-size: cover;
   width: 100%;
-  height: 200px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 100%;
 }
