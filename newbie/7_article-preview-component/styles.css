@@ -84,7 +84,7 @@ h3 {
 
 .footer-active {
   box-sizing: border-box;
-  height: 58.5px;
+  height: 68.25px;
   flex-direction: row;
   color: white;
   padding-top: 25px;
@@ -167,7 +167,7 @@ h3 {
 }
 
 .btn-share-light {
-  background-color: var(--light-grayish-blue)
+  background-color: var(--light-grayish-blue);
 }
 
 .btn-share-active {
