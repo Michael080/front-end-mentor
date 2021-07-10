@@ -67,16 +67,6 @@ h3 {
   border-bottom-right-radius: 10px;
 }
 
-@media (min-width: 900px) {
-  @media (min-width: 900px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    width: 740px;
-    border-top-right-radius: 10px;
-  }
-}
-
 .footer,
 .article-info {
   display: flex;
@@ -89,22 +79,6 @@ h3 {
   padding: 0 3em 2em 3em;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-@media (min-width: 900px) {
-  .btn-share {
-    width: 1.5em;
-    height: 1.5em;
-  }
-
-  .footer {
-    border-bottom-left-radius: 0;
-  }
-
-  .footer-initial {
-    margin-top: -15px;
-    padding-bottom: 3px; 
-  }
 }
 
 .footer-active {
@@ -139,6 +113,30 @@ h3 {
   color: hsl(228, 45%, 44%); 
 }
 
+/* --  layout media-queries  -- */
+@media (min-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 740px;
+    border-top-right-radius: 10px;
+  }
+
+  .btn-share {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .footer {
+    border-bottom-left-radius: 0;
+  }
+
+  .footer-initial {
+    margin-top: -15px;
+    padding-bottom: 3px; 
+  }
+}
+
 /* images */
 .img {
   background-repeat: no-repeat;
@@ -163,6 +161,14 @@ h3 {
   height: 100%;
 }
 
+.profile-pic {
+  background-image: url(./images/avatar-michelle.jpg);
+  width: 3.25em;
+  height: 3.25em;
+  border-radius: 100%;
+}
+
+/* --  images media-queries  -- */
 @media (min-width: 900px) {
   .background-bleed {
     height: 329.267px;
@@ -175,13 +181,6 @@ h3 {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
   }
-}
-
-.profile-pic {
-  background-image: url(./images/avatar-michelle.jpg);
-  width: 3.25em;
-  height: 3.25em;
-  border-radius: 100%;
 }
 
 /* buttons */
