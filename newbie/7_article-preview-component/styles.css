@@ -45,6 +45,13 @@ h3 {
   color: var(--grayish-blue);
 }
 
+/* -- typography media-queries -- */
+@media (min-width: 900px) {
+  .description {
+    margin-bottom: 96px;
+  }
+}
+
 /* Layout */
 h3,
 p {
