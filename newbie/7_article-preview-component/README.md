@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Michael080/front-end-mentor/tree/main/newbie/7_article-preview-component)
+- Live Site URL: [Github Pages](https://michael080.github.io/Article-Preview-Component-frontendmentor.io-/)
 
 ### Built with
 
