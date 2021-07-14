@@ -14,8 +14,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -25,7 +23,7 @@ Users should be able to:
 
 ### Screenshots
 
-![](./images/screenshot_mobile-view_375px.png)
+[](./images/screenshot_mobile-view_375px.png)
 ![](./images/screenshot_mobile-view_active_375px.png)
 ![](./images/screenshot_desktop-view_1440px.png)
 ![](./images/screenshot_desktop-view_active_1440px.png)
