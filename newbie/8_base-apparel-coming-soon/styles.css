@@ -1,17 +1,55 @@
 /* General */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 
 /* colors */
 
+:root {
+  /* primary */
+--desaturated-red: hsl(0, 36%, 70%);
+--soft-red: hsl(0, 93%, 68%);
+/* neutral */
+--grayish-red: hsl(0, 6%, 24%);
+}
 
+/* ### Gradients */
+/* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
 
 /* Typography */
 
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: .25em;
+}
 
+span {
+  font-weight: 300;
+}
+
+input {
+  text-transform: capitalize;
+}
+
+.accent-txt {
+  color: var(--desaturated-red);
+}
+
+.call-to-action {
+  padding: 2em;
+}
 
 /* Layout */
 
@@ -52,6 +90,7 @@ body {
   width: 125px;
   height: 25px;
   margin: 35px;
+  margin: 2em;
 }
 
 .img-hip-lady {
