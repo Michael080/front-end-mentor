@@ -26,7 +26,7 @@ p {
 h3 {
   line-height: 1.75;
 }
-/* TODO --- Bump text-size up @ media-query(900) */
+
 .description {
   line-height: 1.75;
 }
@@ -207,7 +207,6 @@ h3 {
   border-top-right-radius: 10px;
   background-image: url(./images/drawers.jpg);
   background-size: cover;
-  /* TODO --- Research background-position and get to match design more perfectly */
   background-position: bottom top;
   width: 100%;
   height: 100%;
