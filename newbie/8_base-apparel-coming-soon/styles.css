@@ -1,5 +1,8 @@
 /* General */
 
+body {
+  margin: 0;
+}
 
 
 /* colors */
@@ -15,7 +18,6 @@
 .container {
   display: flex;
   flex-direction: column-reverse;
-
 }
 
 .container-email {
@@ -42,17 +44,20 @@
 
 .img {
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 150px;
-  height: 150px;
 }
 
 .img-logo {
   background-image: url(./images/logo.svg);
+  background-size: contain;
+  width: 125px;
+  height: 25px;
+  margin: 35px;
 }
 
 .img-hip-lady {
   background-image: url(./images/hero-mobile.jpg);
-  width: 400px;
-  height: 400px;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  margin-bottom: 2em;
 }
