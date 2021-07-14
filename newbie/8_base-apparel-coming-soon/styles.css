@@ -12,10 +12,15 @@
 
 /* Layout */
 
+.container {
+  display: flex;
+  flex-direction: column-reverse;
 
+}
 
-
-
+.container-email {
+  flex-direction: row;
+}
 
 .attribution { 
   font-size: 11px; text-align: center; 
@@ -23,4 +28,31 @@
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+/* @-layout media-queries */
+/* @media (min-width: 500px) {
+  .container {
+    flex-direction: row;
+  }
+} */
+
+
+/* images */
+
+.img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.img-logo {
+  background-image: url(./images/logo.svg);
+}
+
+.img-hip-lady {
+  background-image: url(./images/hero-mobile.jpg);
+  width: 400px;
+  height: 400px;
 }
