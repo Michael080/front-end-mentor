@@ -99,7 +99,7 @@ input {
   width: 100%;
   padding: 1em;
   border: 1px solid var(--desaturated-red);
-  border-radius: 1em;
+  border-radius: 50% 60% 60% 50% / 250%;
 }
 
 .btn-container {
@@ -113,30 +113,22 @@ input {
 .btn-submit {
   display: grid;
   place-items: center;
-  background-color: var(--desaturated-red);
-  width: 25px;
+  width: 75px;
   height: 53px;
-  padding-right: 20px;
-  padding-left: 10px;
-  padding-right: 40px;
-  padding-left: 0px;
-  z-index: 2;
+  border-radius: 26.5px;
+  background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
-.btn-end {
-  background-color: var(--desaturated-red);
-  width: 53px;
-  height: 53px;
-  border-radius: 100%;
-  z-index: 1;
+.hover-cursor:hover {
+  cursor: pointer;
 }
 
-.left {
-  margin-right: -26.5px;
-}
-
-.right {
-  margin-left: -26.5px;
+.submit-arrow {
+  background-image: url(./images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 15px;
 }
 
 /* images */
