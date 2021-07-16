@@ -25,11 +25,17 @@ function displayError(action) {
   return displaySwitch[action]();
 }
 
+function clearErrors() {
+
+}
+
   // ! https://css-tricks.com/form-validation-part-2-constraint-validation-api-javascript/
 // Check email on-click of submit and show error icon/message if invalid 
 const validate = () => !isValidEmail() ? displayError('show') : false;
 // check email on entry of key 'enter'
-const validateFormEnter = () => event.keyCode === 13 ? validate() : false;
+const validateFormEnter = () => {
+  event.keyCode === 13 ? validate() : displayError('hide');
+}
 
 // Validate user email
 emailSubmit.addEventListener("click", validate);
