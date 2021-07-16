@@ -15,6 +15,9 @@ p {
   margin-top: 0;
 }
 
+.hidden {
+  display: none;
+}
 
 /* colors */
 
@@ -61,9 +64,20 @@ input {
   padding: 1.5em;
 }
 
-.body-copy {
+.body-copy,
+input[type='email'] {
   font-size: .95rem;
+}
+
+.body-copy {
   line-height: 1.5;
+}
+
+.email-invalid-msg {
+  color: var(--soft-red);
+  font-size: .75em;
+  text-align: left;
+  margin-left: 26.5px;
 }
 
 /* Layout */
@@ -76,6 +90,7 @@ input {
 .container-email {
   flex-direction: row;
   margin-right: 5px;
+  margin-bottom: .5em;
 }
 
 .attribution { 
@@ -96,10 +111,17 @@ input {
 /* form elements & buttons */
 input {
   font-size: 1em;
+  text-transform: lowercase;
   width: 100%;
   padding: 1em;
+  padding-left: 2em;
   border: 1px solid var(--desaturated-red);
   border-radius: 50% 60% 60% 50% / 250%;
+}
+
+/* ! https://stackoverflow.com/questions/34799526/style-an-asptextbox-placeholder-with-css */
+input:placeholder-shown {
+  text-transform: capitalize;
 }
 
 .btn-container {
@@ -152,6 +174,16 @@ input {
   width: 100%;
   height: 275px;
   margin-bottom: 2em;
+}
+
+.email-error-icon {
+  position: relative;
+  background-image: url('./images/icon-error.svg');
+  top: 14.75px;
+  right: 100px;
+  width: 30px;
+  height: 25px;
+  margin: 0;
 }
 
 .arrow {
