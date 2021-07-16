@@ -85,12 +85,15 @@ input[type='email'] {
 .container {
   display: flex;
   flex-direction: column-reverse;
+  width: 375px;
+  margin: 0 auto;
 }
 
 .container-email {
   flex-direction: row;
   margin-right: 5px;
   margin-bottom: .5em;
+  max-width: 312px;
 }
 
 .attribution { 
@@ -102,7 +105,7 @@ input[type='email'] {
 }
 
 /* @-layout media-queries */
-/* @media (min-width: 500px) {
+/* @media (min-width: 655px) {
   .container {
     flex-direction: row;
   }
@@ -174,9 +177,23 @@ input:placeholder-shown {
 }
 
 .img-hip-lady {
+  /* mobile width: 375px */
+  /* desktop width: 610px */
   background-image: url(./images/hero-mobile.jpg);
   background-size: cover;
   width: 100%;
+  height: 275px;
+  margin-bottom: 2em;
+}
+
+/* ! duplicate rule --- TEMP ONLY!!! */
+.img-hip-lady {
+  /* mobile width: 375px */
+  /* desktop width: 610px */
+  background-image: url(./images/hero-mobile.jpg);
+  background-size: contain;
+  background-position: center;
+  width: 375px;
   height: 275px;
   margin-bottom: 2em;
 }
