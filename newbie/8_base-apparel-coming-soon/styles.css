@@ -191,7 +191,7 @@ input:placeholder-shown {
 .btn-submit {
   display: grid;
   place-items: center;
-  width: 75px;
+  width: 100%;
   height: 53px;
   border-radius: 26.5px;
   /* ! https://www.w3schools.com/csSref/func_linear-gradient.asp */
@@ -224,12 +224,16 @@ input:placeholder-shown {
 
 @media (min-width: 1200px) {
   .container-email{
-    width: 484.8px;
+    width: 450px;
   }
   .email-input {
-    min-width: 484.8px;
+    min-width: 450px;
     border-radius: 50% 60% 60% 50% / 400%;
   }
+
+  .btn-container {
+    width: 95px;
+    }
 }
 
 /* images */
