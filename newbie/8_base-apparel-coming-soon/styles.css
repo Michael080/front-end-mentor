@@ -190,11 +190,11 @@ input:placeholder-shown {
 .img-hip-lady {
   /* mobile width: 375px */
   /* desktop width: 610px */
-  background-image: url(./images/hero-mobile.jpg);
+  /* background-image: url(./images/hero-mobile.jpg);
   background-size: cover;
   width: 100%;
   height: 275px;
-  margin-bottom: 2em;
+  margin-bottom: 2em; */
 }
 
 /* ! duplicate rule --- TEMP ONLY!!! */
@@ -230,7 +230,24 @@ input:placeholder-shown {
 
 /* @-images media-queries */
 @media (min-width: 715px) {
+  .img-logo {
+    margin-left: 50px;
+  }
+
+  .call-to-action {
+    margin-left: 25px;
+  }
+
+  .container-main {
+    position: absolute;
+    top: 0;
+  }
+
   .image-container {
+    /* position: absolute;
+    top: 100px;
+    right: 100px; */
+    /* justify-self: flex-start; */
     min-height: 100vh;
     width: 50%;
   }
@@ -246,6 +263,7 @@ input:placeholder-shown {
   .call-to-action {
     text-align: left;
     width: 45%;
+    margin-top: 125px;
   }
 
   .container-email {
