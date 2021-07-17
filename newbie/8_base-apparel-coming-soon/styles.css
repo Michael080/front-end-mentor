@@ -62,10 +62,10 @@ input {
 
 .call-to-action {
   padding: 1.5em;
+  max-width: 540px;
 }
 
-.body-copy,
-input[type='email'] {
+.body-copy {
   font-size: .95rem;
 }
 
@@ -73,11 +73,21 @@ input[type='email'] {
   line-height: 1.65;
 }
 
+input[type='email'] {
+  font-size: 15px;
+}
+
 .email-invalid-msg {
   color: var(--soft-red);
-  font-size: .75em;
+  font-size: .75rem;
   text-align: left;
   margin-left: 26.5px;
+}
+
+@media (min-width: 900px) {
+  html {
+    font-size: 115%;
+  }
 }
 
 /* Layout */
@@ -263,10 +273,37 @@ input:placeholder-shown {
   .img-hip-lady {
     background-image: url(./images/hero-desktop.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
     width: 100%;
     height: 100%;
   }
 }
+
+/* width: 850px (landscape) */
+@media (min-width: 850px) {
+  .image-container {
+    width: 53%;
+  }
+}
+
+/* width: 1000px (landscape) */
+@media (min-width: 1000px) {
+  .image-container {
+    /* width: 55%; */
+  }
+}
+
+/* width: 1200px (landscape) */
+@media (min-width: 1200px) {
+  .image-container {
+    width: 40%;
+  }
+
+  .body-copy {
+    line-height: 1.75;
+    margin-bottom: 2.5em;
+  }
+}
+
 
 /* TODO - Use rems to increment font-sizes up & w/h to bump img-icon up as well */
