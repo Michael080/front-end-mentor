@@ -44,7 +44,7 @@ h1 {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: .25em;
 }
 
@@ -105,11 +105,18 @@ input[type='email'] {
 }
 
 /* @-layout media-queries */
-/* @media (min-width: 655px) {
-  .container {
+@media (min-width: 655px) {
+  .container-main {
     flex-direction: row;
+    justify-content: space-between;
+    min-width: 100vw;
+    height: 100vh;
   }
-} */
+
+  .call-to-action {
+    width: 375px;
+  }
+}
 
 /* form elements & buttons */
 input {
@@ -176,6 +183,10 @@ input:placeholder-shown {
   margin: 2em;
 }
 
+.image-container {
+  width: 100%;
+}
+
 .img-hip-lady {
   /* mobile width: 375px */
   /* desktop width: 610px */
@@ -215,4 +226,29 @@ input:placeholder-shown {
   transform: rotate(180deg);
   height: 25px;
   width: 25px;
+}
+
+/* @-images media-queries */
+@media (min-width: 715px) {
+  .image-container {
+    min-height: 100vh;
+    width: 50%;
+  }
+
+  .img-hip-lady {
+    background-image: url(./images/hero-desktop.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  .call-to-action {
+    text-align: left;
+    width: 45%;
+  }
+
+  .container-email {
+    margin-left: 0;
+  }
 }
