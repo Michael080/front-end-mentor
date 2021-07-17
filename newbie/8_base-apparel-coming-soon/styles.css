@@ -29,10 +29,6 @@ p {
 --grayish-red: hsl(0, 6%, 24%);
 }
 
-/* ### Gradients */
-/* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
-- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
-
 /* Typography */
 
 h1,
@@ -147,7 +143,6 @@ input[type='email'] {
   }
 }
 
-
 /* form elements & buttons */
 input {
   font-size: 1em;
@@ -226,8 +221,6 @@ input:placeholder-shown {
 }
 
 .img-hip-lady {
-  /* mobile width: 375px */
-  /* desktop width: 610px */
   background-image: url(./images/hero-mobile.jpg);
   background-size: contain;
   background-position: center;
@@ -286,13 +279,6 @@ input:placeholder-shown {
   }
 }
 
-/* width: 1000px (landscape) */
-@media (min-width: 1000px) {
-  .image-container {
-    /* width: 55%; */
-  }
-}
-
 /* width: 1200px (landscape) */
 @media (min-width: 1200px) {
   .image-container {
@@ -304,6 +290,3 @@ input:placeholder-shown {
     margin-bottom: 2.5em;
   }
 }
-
-
-/* TODO - Use rems to increment font-sizes up & w/h to bump img-icon up as well */
