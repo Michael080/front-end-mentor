@@ -104,8 +104,9 @@ input[type='email'] {
   color: hsl(228, 45%, 44%); 
 }
 
-/* @-layout media-queries */
-@media (min-width: 655px) {
+/*--- @-layout media-queries ---*/
+/* width: 715px */
+@media (min-width: 715px) {
   .container-main {
     flex-direction: row;
     justify-content: space-between;
@@ -117,6 +118,25 @@ input[type='email'] {
     width: 375px;
   }
 }
+
+/* width: 750px (landscape) */
+@media (min-width: 750px) {
+  .container-main {
+    position: absolute;
+    top: 0;
+  }
+  .call-to-action {
+    text-align: left;
+    width: 45%;
+    margin-top: 11.5em;
+    margin-left: 25px;
+  }
+
+  footer {
+    margin-top: 95vh;
+  }
+}
+
 
 /* form elements & buttons */
 input {
@@ -168,6 +188,14 @@ input:placeholder-shown {
   width: 15px;
 }
 
+/*--- form/button media-queries ---*/
+/* width: 750px (landscape) */
+@media (min-width: 750px) {
+  .container-email {
+    margin-left: 0;
+  }
+}
+
 /* images */
 
 .img {
@@ -187,17 +215,6 @@ input:placeholder-shown {
   width: 100%;
 }
 
-.img-hip-lady {
-  /* mobile width: 375px */
-  /* desktop width: 610px */
-  /* background-image: url(./images/hero-mobile.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 275px;
-  margin-bottom: 2em; */
-}
-
-/* ! duplicate rule --- TEMP ONLY!!! */
 .img-hip-lady {
   /* mobile width: 375px */
   /* desktop width: 610px */
@@ -228,28 +245,19 @@ input:placeholder-shown {
   width: 25px;
 }
 
-/* @-images media-queries */
-@media (min-width: 715px) {
+/* TODO --- Reposition hip-lady @ screensizes below height: 515px */
+
+/*--- @-images media-queries ---*/
+/* width: 750px (landscape) */
+@media (min-width: 750px) {
   .img-logo {
+    margin-top: 3.5em;
     margin-left: 50px;
   }
 
-  .call-to-action {
-    margin-left: 25px;
-  }
-
-  .container-main {
-    position: absolute;
-    top: 0;
-  }
-
   .image-container {
-    /* position: absolute;
-    top: 100px;
-    right: 100px; */
-    /* justify-self: flex-start; */
     min-height: 100vh;
-    width: 50%;
+    width: 47%;
   }
 
   .img-hip-lady {
@@ -259,14 +267,6 @@ input:placeholder-shown {
     width: 100%;
     height: 100%;
   }
-
-  .call-to-action {
-    text-align: left;
-    width: 45%;
-    margin-top: 125px;
-  }
-
-  .container-email {
-    margin-left: 0;
-  }
 }
+
+/* TODO - Use rems to increment font-sizes up & w/h to bump img-icon up as well */
