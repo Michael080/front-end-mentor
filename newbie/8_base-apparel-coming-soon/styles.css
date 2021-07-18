@@ -313,5 +313,13 @@ input:placeholder-shown {
 @media (min-width: 850px) {
   .image-container {
     width: 53%;
+    max-width: 610px;
+  }
+}
+
+/* width: 850px (landscape) */
+@media (min-width: 850px) {
+  .image-container {
+    width: 53%;
   }
 }
