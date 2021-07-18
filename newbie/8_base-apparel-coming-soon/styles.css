@@ -196,6 +196,8 @@ input:placeholder-shown {
   border-radius: 26.5px;
   /* ! https://www.w3schools.com/csSref/func_linear-gradient.asp */
   background-image: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: 1px 1px 10px var(--soft-red);
+  box-shadow: 2.5px 2.5px 10px var(--desaturated-red);
 }
 
 .btn-submit:hover {
